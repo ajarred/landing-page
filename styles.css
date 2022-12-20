@@ -1,0 +1,33 @@
+.body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.section1 {
+    /* bg color */
+}   
+
+.section1 .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+    padding: 16px 0px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.header .logo, .header .links {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    gap: 16px;
+}
+
+
+
+
