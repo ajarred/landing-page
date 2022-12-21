@@ -115,4 +115,47 @@ a {
 
 }
 
+.section4 {
+    background-color: aqua;
+    padding: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 32px 0;
+}
 
+.section4 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 24px 148px;
+    background-color: palevioletred;
+}
+
+.section4 .quote {
+    font-style: italic;
+    text-align: justify;
+}
+
+.section4 .quoter {
+    text-align: end;
+}
+
+.section5 {
+
+}
+
+.section5 .container {
+
+}
+
+.section5 .header {
+
+}
+
+.section5 .subtext {
+
+}
+
+.section5 .signup {
+    
+}
