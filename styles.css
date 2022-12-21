@@ -174,18 +174,19 @@ a {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 0;
+    padding: 24px 48px;
     gap: 0;
     border-radius: 5px;
     background-color: #3882F6;
 }
 
 .section5 .header {
-
+    color: white;
+    font-weight: 700;
 }
 
 .section5 .subtext {
-
+    color: white;
 }
 
 .section5 .left {
@@ -208,6 +209,11 @@ a {
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+    background-color:#3882F6;
+    border-color: white;
+    color: white;
+    font-weight: 700;
+    font-size:20px;
 }
 
 .footer {
@@ -216,4 +222,5 @@ a {
     align-items: center;
     padding: 24px;
     background-color: #1F2937;
+    color: white;
 }
