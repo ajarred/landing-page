@@ -63,7 +63,8 @@ a {
 
 .section2 .right-container {
     display: flex;
-    height: 200px;
+    height: 130px;
+    margin: 12px;
 }
 
 .section2 .signup {
@@ -90,11 +91,23 @@ a {
     align-items: center;
 }
 
+#animal {
+    display: flex;
+    width:100px;
+    height:100px;
+    border: 3px solid #555;
+    border-radius: 20px;
+    border-color: blue;
+}
+
 .container .animals {
     display: flex;
     flex-direction: column;
-    width: 150px;
-    height: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    width:140px;
     margin-bottom: 48px;
 }
 
