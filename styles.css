@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont,  Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
 }
 
 .body {
@@ -86,15 +87,22 @@ a {
     border-radius: 10px;
     align-items: center;
     justify-content: center;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
 }
 
 .section3 {
-
+    background-color: white;
 }
 
 .section3 .header {
     text-align: center;
-    margin: 48px;
+    padding: 48px;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
 }
 
 .section3 .container {
@@ -109,7 +117,7 @@ a {
     height:100px;
     border: 3px solid #555;
     border-radius: 20px;
-    border-color: blue;
+    border-color:#3882F6;
 }
 
 .container .animals {
@@ -128,7 +136,7 @@ a {
 }
 
 .section4 {
-    background-color: aqua;
+    background-color:#E5E7EB;
     padding: auto;
     padding-top: 50px;
     padding-bottom: 50px;
@@ -140,7 +148,6 @@ a {
     flex-direction: column;
     justify-content: center;
     margin: 24px 148px;
-    background-color: palevioletred;
 }
 
 .section4 .quote {
