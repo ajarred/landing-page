@@ -1,3 +1,7 @@
+body {
+    /* font stuff */
+}
+
 .body {
     display: flex;
     flex: 1;
@@ -20,6 +24,10 @@ a {
     color:black;
 }
 
+.header .logo {
+    /* larger font, bolt*/
+}
+
 .header .logo, .header .links {
     display: flex;
     list-style-type: none;
@@ -28,6 +36,45 @@ a {
     gap: 16px;
 }
 
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section2 .left-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    flex-wrap: wrap;
+}
+
+.section2 .header {
+    
+}
+
+.section2 .subtext {
+    
+}
+
+.section2 .right-container {
+    display: flex;
+    height: 200px;
+    margin: 60px;
+}
+
+.section2 .left-container {
+    
+}
+
+.section2 .signup {
+    display: flex;
+    height: 48px;
+    width: 96px;
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
