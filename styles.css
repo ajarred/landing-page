@@ -25,7 +25,7 @@ a {
 
 .header .logo {
     
-    /* larger font, bolt*/
+    /* larger font, bold*/
 }
 
 .header .logo, .header .links {
@@ -46,9 +46,9 @@ a {
 .section2 .left-container {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: auto;
     flex-wrap: wrap;
-    padding: 16px 0;
+    padding: 20px 0;
     background-color: bisque;
     gap: 8px 0;
 }
@@ -64,17 +64,42 @@ a {
 .section2 .right-container {
     display: flex;
     height: 200px;
-    flex-shrink: 10;
 }
 
 .section2 .signup {
     display: flex;
-    height: 48px;
-    width: 96px;
-    border-radius: 25px;
+    height: 36px;
+    width: 128px;
+    border-radius: 10px;
     align-items: center;
     justify-content: center;
 }
 
+.section3 {
+
+}
+
+.section3 .header {
+    text-align: center;
+    margin: 48px;
+}
+
+.section3 .container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container .animals {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 48px;
+}
+
+.section3 .subtext {
+
+}
 
 
