@@ -87,7 +87,7 @@ a {
 
 .section3 .container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -108,7 +108,7 @@ a {
     text-align: center;
     gap: 4px;
     width:140px;
-    margin-bottom: 48px;
+    margin: 0 12px 48px 12px;
 }
 
 .section3 .subtext {
@@ -145,7 +145,14 @@ a {
 }
 
 .section5 .container {
-
+    display: flex;
+    justify-content: space-between;
+    margin: 64px;
+    padding: 24px;
+    /* margin: 16px 80px; */ 
+    background-color: palevioletred;
+    /* padding: 24px 148px; */
+    border-radius: 5px;
 }
 
 .section5 .header {
@@ -156,6 +163,34 @@ a {
 
 }
 
+.section5 .left {
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    margin: 0 64px;
+}
+
+.section5 .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    margin: 0 64px;
+}
+
 .section5 .signup {
-    
+    display: flex;
+    height: 36px;
+    width: 128px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    padding: 24px;
 }
