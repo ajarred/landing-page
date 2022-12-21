@@ -62,8 +62,7 @@ a {
 
 .section2 .right-container {
     display: flex;
-    height: 250px;
-    width
+    height: 200px;
     flex-shrink: 10;
 }
 
