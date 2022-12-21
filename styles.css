@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0;
-    padding: 24px 148px;
+    padding: 24px 256px;
 }
 
 a {
@@ -41,7 +41,7 @@ a {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    gap: 24px;
+    gap: 32px;
 }
 
 .section2 {
