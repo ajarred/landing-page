@@ -153,12 +153,14 @@ a {
     font-style: italic;
     text-align: justify;
     font-size: 36px;
+    margin: 0 256px;
     color: #1F2937;
 }
 
 .section4 .quoter {
     text-align: end;
     font-size: 24px;
+    margin: 0 256px;
     font-weight: bold;
 }
 
