@@ -94,7 +94,7 @@ a {
 }
 
 .section3 {
-    background-color: gold;
+    background-color: lightgray;
 }
 
 .section3 .header {
@@ -144,7 +144,6 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 48px;
     padding: 96px 256px;
 }
 
@@ -162,18 +161,23 @@ a {
 }
 
 .section5 {
-    
+    background-color: lightgray;
+}
+
+.section5 .container1 {
+    display: flex;
+    flex-direction: column;
+    padding: 48px 128px;
 }
 
 .section5 .container {
     display: flex;
     justify-content: space-between;
-    margin: 64px;
-    padding: 24px;
-    /* margin: 16px 80px; */ 
-    background-color: palevioletred;
-    /* padding: 24px 148px; */
+    margin: 0;
+    padding: 0;
+    gap: 0;
     border-radius: 5px;
+    background-color: #3882F6;
 }
 
 .section5 .header {
@@ -187,7 +191,6 @@ a {
 .section5 .left {
     display: flex;
     flex-direction: column;
-    background-color: aquamarine;
     margin: 0 64px;
 }
 
@@ -195,7 +198,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
     margin: 0 64px;
 }
 
