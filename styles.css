@@ -144,7 +144,8 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 24px 148px;
+    margin: 48px;
+    padding: 96px 256px;
 }
 
 .section4 .quote {
