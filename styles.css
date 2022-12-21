@@ -15,7 +15,7 @@ body {
 .section1 .header {
     display: flex;
     justify-content: space-between;
-    margin: 32px 96px;
+    margin: 24px 148px;
 }
 
 a {
@@ -24,6 +24,7 @@ a {
 }
 
 .header .logo {
+    
     /* larger font, bolt*/
 }
 
@@ -32,14 +33,14 @@ a {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
-    gap: 32px;
+    gap: 24px;
 }
 
 .section2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 32px 96px;
+    margin: 32px 148px;
 }
 
 .section2 .left-container {
