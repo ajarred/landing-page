@@ -94,7 +94,7 @@ a {
 }
 
 .section3 {
-    background-color: white;
+    background-color: gold;
 }
 
 .section3 .header {
@@ -113,8 +113,8 @@ a {
 
 #animal {
     display: flex;
-    width:100px;
-    height:100px;
+    width:200px;
+    height:200px;
     border: 3px solid #555;
     border-radius: 20px;
     border-color:#3882F6;
@@ -127,7 +127,7 @@ a {
     align-items: center;
     text-align: center;
     gap: 4px;
-    width:140px;
+    width:240px;
     margin: 0 12px 48px 12px;
 }
 
@@ -137,10 +137,7 @@ a {
 
 .section4 {
     background-color:#E5E7EB;
-    padding: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin: 32px 0;
+    padding: 50px;
 }
 
 .section4 .container {
@@ -153,14 +150,18 @@ a {
 .section4 .quote {
     font-style: italic;
     text-align: justify;
+    font-size: 36px;
+    color: #1F2937;
 }
 
 .section4 .quoter {
     text-align: end;
+    font-size 24px;
+    font-weight: bold;
 }
 
 .section5 {
-
+    
 }
 
 .section5 .container {
