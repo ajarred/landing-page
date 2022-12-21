@@ -39,6 +39,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 32px 96px;
 }
 
 .section2 .left-container {
@@ -46,6 +47,9 @@ a {
     flex-direction: column;
     width: 300px;
     flex-wrap: wrap;
+    padding: 32px 0;
+    background-color: bisque;
+    gap: 16px 0;
 }
 
 .section2 .header {
@@ -58,12 +62,9 @@ a {
 
 .section2 .right-container {
     display: flex;
-    height: 200px;
-    margin: 60px;
-}
-
-.section2 .left-container {
-    
+    height: 250px;
+    width
+    flex-shrink: 10;
 }
 
 .section2 .signup {
