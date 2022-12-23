@@ -164,14 +164,14 @@ a {
     font-style: italic;
     text-align: justify;
     font-size: 36px;
-    margin: 0 256px;
+    /*margin: 0 256px;*/
     color: #1F2937;
 }
 
 .section4 .quoter {
     text-align: end;
     font-size: 24px;
-    margin: 0 256px;
+    /*margin: 0 256px;*/
     font-weight: bold;
 }
 
@@ -182,17 +182,20 @@ a {
 .section5 .container1 {
     display: flex;
     flex-direction: column;
-    padding: 48px 128px;
+    padding: 48px 192px;
+    justify-content: center;
+    align-items: center;
 }
 
 .section5 .container {
     display: flex;
     justify-content: space-between;
-    margin: 0 312px;
+    /*margin: 0 312px;*/
     padding: 24px 48px;
     gap: 0;
     border-radius: 5px;
     background-color: #3882F6;
+    flex-wrap: wrap;
 }
 
 .section5 .header {
@@ -208,14 +211,16 @@ a {
 .section5 .left {
     display: flex;
     flex-direction: column;
-    margin: 0 64px;
+    justify-content: space-between;
+    padding: 0 48px;
+    /*margin: 0 64px;*/
 }
 
 .section5 .right {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 64px;
+    /*margin: 0 64px;*/
 }
 
 .section5 .signup {
