@@ -194,7 +194,7 @@ a {
     justify-content: space-between;
     padding: 24px px;
     flex-wrap: wrap;
-    width:800px;
+    width:1000px;
 }
 
 .section4 .quote {
@@ -218,21 +218,20 @@ a {
 
 .section5 .container1 {
     display: flex;
-    flex-direction: column;
-    padding: 48px 192px;
+    padding: 96px 192px;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .section5 .container {
     display: flex;
     justify-content: space-between;
-    /*margin: 0 312px;*/
-    padding: 24px 48px;
-    gap: 0;
-    border-radius: 5px;
-    background-color: #3882F6;
+    padding: 24px 96px;
     flex-wrap: wrap;
+    width:1000px;
+    background-color: #3882F6;
+    border-radius: 5px;
 }
 
 .section5 .header {
@@ -249,7 +248,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 0 48px;
+    padding: 0px;
     /*margin: 0 64px;*/
 }
 
@@ -257,7 +256,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 48px;
+    padding: 0x;
     /*margin: 0 64px;*/
 }
 
