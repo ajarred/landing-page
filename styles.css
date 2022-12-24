@@ -21,22 +21,22 @@ body {
     background-color: #1F2937;
 }   
 
-.section1 .container {
+ .section1 .container {
     display: flex;
-    flex-direction: column;
-    padding: 24px 192px;
-    justify-content: center;
+    padding: 24px 148px;
+    justify-content: space-around;
     align-items: center;
-}
+} 
 
 .section1 .header {
     display: flex;
-   justify-content: space-evenly;
+   justify-content: space-around;
     align-items: center;
     /*margin: 0 312px;*/
-    /* padding: 0 312px;*/
-    gap: 0;
+    /*padding: 24px 256px;*/
+    gap: 0px;
     flex-wrap: wrap;
+    width: 1660px;
 }
 
 /* .section1 .container {
