@@ -194,6 +194,7 @@ a {
     justify-content: space-between;
     padding: 24px px;
     flex-wrap: wrap;
+    width:800px;
 }
 
 .section4 .quote {
